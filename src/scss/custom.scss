@@ -8,20 +8,50 @@
 .App{
     font-family: "Poppins", sans-serif;
 
-    h1, h2, .navbar-brand {
+    .navbar-brand {
         font-family: "Bebas Neue", sans-serif;
     }
+    
+    .nav-link:hover {
+        transform: scale(1.05);
+        transition: all 0.7s;
+        text-decoration: fw-bold;
+    }
+    
+    h2 {
+        font-size: 3rem;
+
+        @include extraLarge {
+            font-size: 2.5rem;
+        }
+
+        @include large {
+            font-size: 2rem;
+        }
+    }
+
+    .card {
+        overflow-x: hidden;
+
+        .card-img-top {
+            transition: all 0.3s;
+
+            &:hover {
+                cursor: pointer;
+                scale: 1.1;
+                transition: all 0.3s;
+            }
+        }
+    }
+
+    .form-control::placeholder {
+        opacity: 0.5;
+    } 
 }
 
 $primary:#712cf9;
 $light:#ffffff;
 
-
-.nav-link:hover {
-    transform: scale(1.05);
-    transition: all 0.7s;
-    text-decoration: fw-bold;
-}
 
 
 @import  '~bootstrap/scss/bootstrap.scss';

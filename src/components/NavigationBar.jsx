@@ -18,7 +18,7 @@ function NavigationBar() {
                     <Nav.Link href='#header' className='text-light'>Home</Nav.Link>
                     <Nav.Link href='#about' className='text-light'>About</Nav.Link>
                     <Nav.Link href='#projects' className='text-light'>Projects</Nav.Link>
-                    <Nav.Link href='#contact' type="button" className='text-primary fw-semibold btn bg-light active'>Contact</Nav.Link>
+                    <Nav.Link href='#contact' type="button" className='text-primary fw-semibold btn bg-light'>Contact</Nav.Link>
                   </Nav>
                </Navbar.Collapse>
            </Container>
