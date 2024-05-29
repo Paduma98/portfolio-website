@@ -7,26 +7,26 @@ const ProjectsItems = [
     {
         id: 1,
         ProjectImg: Project1Img,
-        ProjectTitle: 'Project 1',
-        ProjectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.'
+        ProjectTitle: 'New website for ActVue.com company',
+        ProjectDescription: 'ActVue.com is a company that provides digital solutions. This is the concept logo branding as well as the creation of a new concept website.'
     },
     {
         id: 2,
         ProjectImg: Project2Img,
-        ProjectTitle: 'Project 2',
-        ProjectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.'
+        ProjectTitle: 'New logo branding for Future Software Lab',
+        ProjectDescription: 'Future Software Lab is a company that provides software and web solutions. Its logo was re-branded.'
     },
     {
         id: 3,
         ProjectImg: Project3Img,
-        ProjectTitle: 'Project 3',
-        ProjectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.'
+        ProjectTitle: 'UI/UX design for EP system mobile App',
+        ProjectDescription: 'EP system is a mobile app designed to help students in Sri Lankan schools with less facilities and teachers to get support for their education. This is its UI/UX design.'
     },
     {
         id: 4,
         ProjectImg: Project4Img,
-        ProjectTitle: 'Project 4',
-        ProjectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.'
+        ProjectTitle: 'Landing page design for Bravis clothing brand website',
+        ProjectDescription: 'Bravis is a new clothing brand. This is the landing page created for its website.'
     }
 ]
 

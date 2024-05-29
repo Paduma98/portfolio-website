@@ -5,7 +5,7 @@ import Form from "react-bootstrap/Form";
 function ContactSection() {
     return (
        <div className="pb-5" id='contact'>
-         <div className="container px-lg-5">
+         <div className="container px-lg-5 pb-lg-5">
             <h2 className='mb-5'>Contact Me</h2>
             <Form className="px-lg-5 text-secondary pb-3">
                <div className="row">

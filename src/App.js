@@ -4,6 +4,8 @@ import Header from './components/Header';
 import AboutSection from './components/AboutSection';
 import ProjectsSection from './components/ProjectsSection';
 import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
+import ServicesSection from './components/ServicesSection';
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
       <NavigationBar/>
       <Header/>
       <AboutSection/>
+      <ServicesSection />
       <ProjectsSection/>
       <ContactSection />
+      <Footer />
     </div>
   );
 }

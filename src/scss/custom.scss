@@ -7,10 +7,6 @@
 
 .App{
     font-family: "Poppins", sans-serif;
-
-    .navbar-brand {
-        font-family: "Bebas Neue", sans-serif;
-    }
     
     .nav-link:hover {
         transform: scale(1.05);
@@ -30,7 +26,7 @@
         }
     }
 
-    .card {
+    .pc-1 {
         overflow-x: hidden;
 
         .card-img-top {
@@ -46,7 +42,74 @@
 
     .form-control::placeholder {
         opacity: 0.5;
-    } 
+    }
+
+    .footer-icon {
+        display: flex;
+        gap: 1rem;
+      }
+      
+      .footer-icon i {
+        font-size: 2rem;
+        color: #ffffff;
+        transition: color 0.3s;
+      
+        &:hover {
+          opacity:80%;
+        }
+      }
+
+      
+
+      .ft-2 ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .ft-2 ul a {
+        text-decoration: none;
+        color: #ffffff;
+
+        &:hover {
+            opacity:80%;
+          }
+      }
+
+      .ft-3 i {
+        padding-right: 0.5rem;
+        font-size: 1rem;
+      }
+
+      .no-border-card {
+        border: none;
+
+        &:hover {
+            transform: translateY(-5px);
+            transition: all 0.5s;
+          }
+      }
+
+      .line-clamp-3 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+        white-space: normal;
+      }
+
+      .line-clamp-2 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        white-space: normal;
+      }
+
+      .navbar-shadow {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+      }
+
 }
 
 $primary:#712cf9;
